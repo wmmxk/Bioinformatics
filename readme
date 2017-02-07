@@ -1,3 +1,5 @@
-通过chhome.sh来 改变homedirectory
+modify the 0_set.path.sh file if the scripts are run on a new address
 
-the path in pycode shoud be modified aslo
+the script for extracting  summary of analysis is to be added
+
+The job was run a SLURM cluster
