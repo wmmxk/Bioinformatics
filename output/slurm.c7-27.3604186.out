@@ -1,0 +1,5 @@
+==========================================
+SLURM_JOB_ID = 3604186
+SLURM_NODELIST = c7-27
+CUDA_VISIBLE_DEVICES = NoDevFiles
+==========================================

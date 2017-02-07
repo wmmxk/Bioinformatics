@@ -1,0 +1,15 @@
+Could not locate a HISAT2 index corresponding to basename "/home/wxk/ref/tomato/tomato.index_hisat/tomato"
+srun: error: c8-39: task 0: Exited with exit code 1
+Error: Encountered internal HISAT2 exception (#1)
+Command: /home/wxk/software/hisat2-2.0.5/hisat2-align-s --wrapper basic-0 -S /home/wxk/RNA_seq/Nagu_summer/hisat/6.sam -U /home/wxk/RNA_seq/Nagu_summer/trim/6.trim.fastq /home/wxk/ref/tomato/tomato.index_hisat/tomato 
+(ERR): hisat2-align exited with value 1
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+540851 GFF lines processed.
+Error occured when reading beginning of SAM/BAM file.
+  
+  [Exception type: StopIteration, raised in count.py:84]
+srun: error: c8-39: task 0: Exited with exit code 1

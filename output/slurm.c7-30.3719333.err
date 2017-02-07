@@ -1,0 +1,29 @@
+Error: Encountered one or more spaces while parsing the quality string for read HWI-700593F:502:C5JGAACXX:8:1316:4421:34468 1:N:0:.  If this is a FASTQ file with integer (non-ASCII-encoded) qualities, try re-running with the --integer-quals option.
+terminate called after throwing an instance of 'int'
+(ERR): hisat2-align died with signal 6 (ABRT) 
+srun: error: c7-30: task 0: Exited with exit code 1
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+540851 GFF lines processed.
+100000 SAM alignment records processed.
+200000 SAM alignment records processed.
+300000 SAM alignment records processed.
+400000 SAM alignment records processed.
+500000 SAM alignment records processed.
+600000 SAM alignment records processed.
+700000 SAM alignment records processed.
+800000 SAM alignment records processed.
+900000 SAM alignment records processed.
+1000000 SAM alignment records processed.
+1100000 SAM alignment records processed.
+1200000 SAM alignment records processed.
+1300000 SAM alignment records processed.
+1400000 SAM alignment records processed.
+1500000 SAM alignment records processed.
+1600000 SAM alignment records processed.
+1700000 SAM alignment records processed.
+1800000 SAM alignment records processed.
+1898278 SAM alignments  processed.

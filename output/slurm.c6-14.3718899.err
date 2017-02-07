@@ -1,0 +1,10 @@
+TrimmomaticSE: Started with arguments: -phred33 /home/wxk/RNA_seq/Nagu_summer/single/27.single.fastq /home/wxk/RNA_seq/Nagu_summer/trim/27.trim.fastq ILLUMINACLIP:/home/wxk/software/Trimmomatic-0.33/adapters/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Automatically using 16 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+slurmstepd: error: Step 3718899.0 exceeded memory limit (4177880 > 4096000), being killed
+slurmstepd: error: Exceeded job memory limit
+slurmstepd: error: *** STEP 3718899.0 ON c6-14 CANCELLED AT 2017-02-06T19:33:24 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: c6-14: task 0: Killed

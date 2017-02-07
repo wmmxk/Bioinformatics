@@ -1,0 +1,22 @@
+
+===========================================================================
+Job Finished
+
+Name                : 3_trim.sh
+User                : wxk
+Partition           : med
+Nodes               : c8-17
+Cores               : 1
+State               : RUNNING
+Submit              : 2016-12-18T15:02:26
+Start               : 2016-12-18T16:02:20
+End                 : --
+Reserved walltime   : 02:00:00
+Used walltime       : 00:00:40
+Used CPU time       : 00:00:20
+% User (Computation): 95.03%
+% System (I/O)      :  4.97%
+Mem reserved        : 2000M/core
+Max Mem used        : 454.00M (c8-17)
+Max Disk Write      : 158.00M (c8-17)
+Max Disk Read       : 163.00M (c8-17)

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "./pycode/2_2_read.py", line 9, in <module>
+srun: error: c8-28: task 0: Exited with exit code 1
+    map_file=open(index_p+'/'+sys.argv[1]+'.index.new','r')
+IndexError: list index out of range

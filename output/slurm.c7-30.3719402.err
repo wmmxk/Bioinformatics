@@ -1,0 +1,15 @@
+
+srun: error: c7-30: task 0: Exited with exit code 1
+[2017-02-07 01:12:56] Beginning TopHat run (v2.0.9)
+-----------------------------------------------
+[2017-02-07 01:12:56] Checking for Bowtie
+		  Bowtie version:	 2.1.0.0
+[2017-02-07 01:12:56] Checking for Samtools
+		Samtools version:	 0.1.19.0
+[2017-02-07 01:12:56] Checking for Bowtie index files (genome)..
+Error: Could not find Bowtie 2 index files (/home/wxk/ref/tomato/tophat_index/tomato.*.bt2)
+open: No such file or directory
+[bam_sort_core] fail to open file ./accepted_hits.bam
+open: No such file or directory
+[main_samview] fail to open "./sorted.bam" for reading.
+srun: error: c7-30: task 0: Exited with exit code 1

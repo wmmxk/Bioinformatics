@@ -1,0 +1,26 @@
+9028012 reads; of these:
+  9028012 (100.00%) were unpaired; of these:
+    862055 (9.55%) aligned 0 times
+    7699777 (85.29%) aligned exactly 1 time
+    466180 (5.16%) aligned >1 times
+90.45% overall alignment rate
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+540851 GFF lines processed.
+100000 SAM alignment records processed.
+200000 SAM alignment records processed.
+300000 SAM alignment records processed.
+400000 SAM alignment records processed.
+500000 SAM alignment records processed.
+600000 SAM alignment records processed.
+700000 SAM alignment records processed.
+800000 SAM alignment records processed.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+slurmstepd: error: *** JOB 3719331 ON c7-30 CANCELLED AT 2017-02-07T01:11:14 ***
+srun: forcing job termination
+slurmstepd: error: *** STEP 3719331.1 ON c7-30 CANCELLED AT 2017-02-07T01:11:14 ***
+srun: error: c7-30: task 0: Terminated

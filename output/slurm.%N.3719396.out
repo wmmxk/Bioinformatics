@@ -1,0 +1,22 @@
+
+===========================================================================
+Job Finished
+
+Name                : 4_tophat.sh
+User                : wxk
+Partition           : high
+Nodes               : c8-39
+Cores               : 4
+State               : FAILED,RUNNING
+Submit              : 2017-02-06T17:11:43
+Start               : 2017-02-06T17:12:31
+End                 : --
+Reserved walltime   : 04:00:00
+Used walltime       : 00:00:01
+Used CPU time       : --
+% User (Computation): --
+% System (I/O)      : --
+Mem reserved        : 1750M/core
+Max Mem used        : 0.00  (,c8-39)
+Max Disk Write      : 0.00  (,c8-39)
+Max Disk Read       : 0.00  (,c8-39)

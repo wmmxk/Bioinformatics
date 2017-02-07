@@ -1,0 +1,22 @@
+
+===========================================================================
+Job Finished
+
+Name                : 4.1_hisat.sh
+User                : wxk
+Partition           : high
+Nodes               : c7-30
+Cores               : 4
+State               : FAILED,RUNNING
+Submit              : 2017-02-06T16:32:13
+Start               : 2017-02-06T16:33:03
+End                 : --
+Reserved walltime   : 01:00:00
+Used walltime       : 00:00:16
+Used CPU time       : 00:00:15
+% User (Computation): 96.77%
+% System (I/O)      :  3.22%
+Mem reserved        : 1750M/core
+Max Mem used        : 0.00  (c7-30)
+Max Disk Write      : 0.00  (c7-30)
+Max Disk Read       : 0.00  (c7-30)

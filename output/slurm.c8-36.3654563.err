@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "./pycode/2_2_read.py", line 7, in <module>
+srun: error: c8-36: task 0: Exited with exit code 1
+    from read_path import *
+  File "/home/wxk/Nagu/Nagu1/shfile/pycode/read_path.py", line 1, in <module>
+    current=os.getcwd()
+NameError: name 'os' is not defined

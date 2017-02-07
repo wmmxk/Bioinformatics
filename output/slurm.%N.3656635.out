@@ -1,0 +1,22 @@
+
+===========================================================================
+Job Finished
+
+Name                : 1_index.sh
+User                : wxk
+Partition           : high
+Nodes               : c6-29
+Cores               : 1
+State               : RUNNING
+Submit              : 2016-12-18T21:17:10
+Start               : 2016-12-18T21:17:10
+End                 : --
+Reserved walltime   : 05:00:00
+Used walltime       : 00:03:02
+Used CPU time       : 00:03:38
+% User (Computation): 95.66%
+% System (I/O)      :  4.34%
+Mem reserved        : 1000M/core
+Max Mem used        : 7.03M (c6-29)
+Max Disk Write      : 25.51G (c6-29)
+Max Disk Read       : 28.25G (c6-29)

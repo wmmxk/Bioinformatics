@@ -1,0 +1,22 @@
+
+===========================================================================
+Job Finished
+
+Name                : 4.2_gsnap.sh
+User                : wxk
+Partition           : high
+Nodes               : c7-30
+Cores               : 4
+State               : ,RUNNING
+Submit              : 2017-02-06T17:02:19
+Start               : 2017-02-06T17:02:20
+End                 : --
+Reserved walltime   : 01:00:00
+Used walltime       : 00:01:50
+Used CPU time       : --
+% User (Computation): --
+% System (I/O)      : --
+Mem reserved        : 1750M/core
+Max Mem used        : 4.95G (c7-30)
+Max Disk Write      : 73.00M (c7-30)
+Max Disk Read       : 74.00M (c7-30)

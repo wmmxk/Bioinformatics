@@ -1,0 +1,6 @@
+srun: got SIGCONT
+slurmstepd: error: *** STEP 3654659.0 ON c7-30 CANCELLED AT 2016-12-17T17:41:59 ***
+slurmstepd: error: *** JOB 3654659 ON c7-30 CANCELLED AT 2016-12-17T17:41:59 ***
+srun: forcing job termination
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: c7-30: task 0: Terminated

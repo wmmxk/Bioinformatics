@@ -1,0 +1,22 @@
+
+===========================================================================
+Job Finished
+
+Name                : 2_sbatch.sh
+User                : wxk
+Partition           : high
+Nodes               : c7-32
+Cores               : 1
+State               : RUNNING
+Submit              : 2016-12-18T21:25:10
+Start               : 2016-12-18T22:08:23
+End                 : --
+Reserved walltime   : 10:00:00
+Used walltime       : 00:39:12
+Used CPU time       : 00:39:08
+% User (Computation): 99.61%
+% System (I/O)      :  0.39%
+Mem reserved        : 2000M/core
+Max Mem used        : 1.02G (c7-32)
+Max Disk Write      : 1.65G (c7-32)
+Max Disk Read       : 64.08G (c7-32)

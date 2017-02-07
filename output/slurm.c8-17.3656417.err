@@ -1,0 +1,13 @@
+TrimmomaticSE: Started with arguments: -phred33 /home/wxk/Nagu/Nagu1/single/44.single.fastq /home/wxk/Nagu/Nagu1/trim/44.trim.fastq ILLUMINACLIP:/home/wxk/software/Trimmomatic-0.33/adapters/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Automatically using 16 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Exception in thread "main" java.io.FileNotFoundException: /home/wxk/Nagu/Nagu1/single/44.single.fastq (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at org.usadellab.trimmomatic.fastq.FastqParser.parse(FastqParser.java:127)
+	at org.usadellab.trimmomatic.TrimmomaticSE.process(TrimmomaticSE.java:192)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:285)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:40)
+srun: error: c8-17: task 0: Exited with exit code 1

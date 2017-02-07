@@ -1,0 +1,22 @@
+
+===========================================================================
+Job Finished
+
+Name                : allocation
+User                : wxk
+Partition           : 
+Nodes               : c8-28
+Cores               : 1
+State               : FAILED,PENDING
+Submit              : 2016-12-01T15:14:17
+Start               : 2016-12-01T15:14:17
+End                 : --
+Reserved walltime   : --
+Used walltime       : 00:00:01
+Used CPU time       : --
+% User (Computation): 81.82%
+% System (I/O)      : 18.18%
+Mem reserved        : 0/node
+Max Mem used        : 0.00  (c8-28)
+Max Disk Write      : 0.00  (c8-28)
+Max Disk Read       : 0.00  (c8-28)

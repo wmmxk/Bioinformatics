@@ -1,0 +1,13 @@
+TrimmomaticSE: Started with arguments: -phred33 /home/wxk/Nagu/Nagu1/single/3.single.fastq /home/wxk/Nagu/Nagu1/trim/3.trim.fastq ILLUMINACLIP:/home/wxk/software/Trimmomatic-0.33/adapters/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Automatically using 16 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Exception in thread "Thread-0" java.lang.RuntimeException: Sequence and quality length don't match: 'CTGTACAAGGAGCTCAGATTTCTAGCTCATCTGTTTTAGATAAGCTAAAT' vs 'A-AAFJA<FJAJJJJJJJFAA<AF<<JF<-F'
+	at org.usadellab.trimmomatic.fastq.FastqRecord.<init>(FastqRecord.java:25)
+	at org.usadellab.trimmomatic.fastq.FastqParser.parseOne(FastqParser.java:81)
+	at org.usadellab.trimmomatic.fastq.FastqParser.next(FastqParser.java:171)
+	at org.usadellab.trimmomatic.threading.ParserWorker.run(ParserWorker.java:42)
+	at java.lang.Thread.run(Thread.java:745)
+Input Reads: 1342000 Surviving: 1335469 (99.51%) Dropped: 6531 (0.49%)
+TrimmomaticSE: Completed successfully

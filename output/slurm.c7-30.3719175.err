@@ -1,0 +1,7 @@
+Warning: Could not open read file "srun: error: c7-30: task 0: Exited with exit code 1
+/9.trim.fastq" for reading; skipping...
+Error: No input read files were valid
+(ERR): hisat2-align exited with value 1
+  [Errno 2] No such file or directory: '/home/wxk/RNA_seq/Nagu_summer/hisat/9.sam'
+srun: error: c7-30: task 0: Exited with exit code 1
+  [Exception type: IOError, raised in count.py:42]

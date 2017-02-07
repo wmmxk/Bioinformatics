@@ -1,0 +1,22 @@
+
+===========================================================================
+Job Finished
+
+Name                : 4.1_hisat.sh
+User                : wxk
+Partition           : high
+Nodes               : c8-39
+Cores               : 4
+State               : RUNNING
+Submit              : 2017-02-06T17:04:23
+Start               : 2017-02-06T17:04:23
+End                 : --
+Reserved walltime   : 01:00:00
+Used walltime       : 00:06:51
+Used CPU time       : 00:02:41
+% User (Computation): 97.29%
+% System (I/O)      :  2.71%
+Mem reserved        : 1750M/core
+Max Mem used        : 1.10G (,c8-39)
+Max Disk Write      : 1.64G (,c8-39)
+Max Disk Read       : 2.08G (,c8-39)

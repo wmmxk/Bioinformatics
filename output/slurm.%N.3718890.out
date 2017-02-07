@@ -1,0 +1,22 @@
+
+===========================================================================
+Job Finished
+
+Name                : 3_trim.sh
+User                : wxk
+Partition           : high
+Nodes               : c8-32
+Cores               : 1
+State               : FAILED,CANCELLED by 854714
+Submit              : 2017-02-06T11:32:50
+Start               : 2017-02-06T11:32:53
+End                 : 2017-02-06T11:35:19
+Reserved walltime   : 01:00:00
+Used walltime       : 00:02:26
+Used CPU time       : 00:01:00
+% User (Computation): 71.15%
+% System (I/O)      : 28.84%
+Mem reserved        : 2000M/core
+Max Mem used        : 3.95G (c8-32)
+Max Disk Write      : 563.00M (c8-32)
+Max Disk Read       : 604.00M (c8-32)

@@ -1,0 +1,22 @@
+
+===========================================================================
+Job Finished
+
+Name                : 3_trim.sh
+User                : wxk
+Partition           : high
+Nodes               : c6-14
+Cores               : 1
+State               : COMPLETED
+Submit              : 2017-02-06T11:32:51
+Start               : 2017-02-06T11:32:53
+End                 : 2017-02-06T11:33:45
+Reserved walltime   : 01:00:00
+Used walltime       : 00:00:52
+Used CPU time       : 00:00:40
+% User (Computation): 79.85%
+% System (I/O)      : 20.15%
+Mem reserved        : 2000M/core
+Max Mem used        : 2.05G (c6-14)
+Max Disk Write      : 249.00M (c6-14)
+Max Disk Read       : 268.00M (c6-14)

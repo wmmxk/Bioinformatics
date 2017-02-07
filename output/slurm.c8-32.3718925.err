@@ -1,0 +1,7 @@
+TrimmomaticSE: Started with arguments: -phred33 /home/wxk/RNA_seq/Nagu_summer/single/35.single.fastq /home/wxk/RNA_seq/Nagu_summer/trim/35.trim.fastq ILLUMINACLIP:/home/wxk/software/Trimmomatic-0.33/adapters/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Automatically using 16 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 4826520 Surviving: 4542912 (94.12%) Dropped: 283608 (5.88%)
+TrimmomaticSE: Completed successfully

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "./pycode/2_2_read.py", line 10, in <module>
+srun: error: c7-36: task 0: Exited with exit code 1
+    map_file=open(index_p+'/'+sys.argv[1]+'.index.new','r')
+IOError: [Errno 2] No such file or directory: '/home/wxk/Nagu/index/8.index.new'

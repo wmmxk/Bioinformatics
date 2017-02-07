@@ -1,0 +1,12 @@
+TrimmomaticSE: Started with arguments: -phred33 /home/wxk/Nagu/Nagu1/single/5.single.fastq /home/wxk/Nagu/Nagu1/trim/5.trim.fastq ILLUMINACLIP:/home/wxk/software/Trimmomatic-0.33/adapters/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Automatically using 16 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Exception in thread "Thread-0" java.lang.NullPointerException
+	at org.usadellab.trimmomatic.fastq.FastqParser.parseOne(FastqParser.java:74)
+	at org.usadellab.trimmomatic.fastq.FastqParser.next(FastqParser.java:171)
+	at org.usadellab.trimmomatic.threading.ParserWorker.run(ParserWorker.java:42)
+	at java.lang.Thread.run(Thread.java:745)
+Input Reads: 1552000 Surviving: 1546147 (99.62%) Dropped: 5853 (0.38%)
+TrimmomaticSE: Completed successfully

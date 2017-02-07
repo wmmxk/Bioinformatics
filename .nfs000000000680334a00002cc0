@@ -1,0 +1,3 @@
+#!/bin/bash
+source 0_setpath.sh
+hisat2 -1 -x $ref_p/index_hisat/tomato -U $trim_p/28.trim.fastq -S $hisat_p/28.sam

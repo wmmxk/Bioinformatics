@@ -1,0 +1,20 @@
+GSNAP version 2017-01-14 called with args: /home/wxk/software/Gmap/bin/gsnap.avx2 -D /home/wxk/ref/tomato/tomato/index_gsnap -d tomato --nthread=2 -B 3 -N 0 -n 2 -Q --nofails --format=sam /home/wxk/RNA_seq/Nagu_summer/trim/32.trim.fastq
+srun: error: c7-30: task 0: Exited with exit code 9
+Neither novel splicing (-N) nor known splicing (-s) turned on => assume reads are DNA-Seq (genomic)
+Checking compiler assumptions for SSE2: 6B8B4567 327B23C6 xor=59F066A1
+Checking compiler assumptions for SSE4.1: -103 -58 max=198 => compiler zero extends
+Checking compiler assumptions for SSE4.2 options: 6B8B4567 __builtin_clz=1 __builtin_ctz=0 _mm_popcnt_u32=17 __builtin_popcount=17 
+Finished checking compiler assumptions
+Unable to find genome directory /home/wxk/ref/tomato/tomato/index_gsnap.  Either recompile the GMAP package
+to have the correct default directory (seen by doing gmap --version),
+or use the -D flag to gmap to specify the correct genome directory.
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+540851 GFF lines processed.
+Error occured when reading beginning of SAM/BAM file.
+  
+  [Exception type: StopIteration, raised in count.py:84]
+srun: error: c7-30: task 0: Exited with exit code 1

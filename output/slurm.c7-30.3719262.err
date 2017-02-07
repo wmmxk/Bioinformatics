@@ -1,0 +1,43 @@
+GSNAP version 2017-01-14 called with args: /home/wxk/software/Gmap/bin/gsnap.avx2 -D /home/wxk/ref/tomato/index_gsnap -d tomato --nthread=2 -B 3 -N 0 -n 2 -Q --nofails --format=sam /home/wxk/RNA_seq/Nagu_summer/trim/2.trim.fastq
+Neither novel splicing (-N) nor known splicing (-s) turned on => assume reads are DNA-Seq (genomic)
+Checking compiler assumptions for SSE2: 6B8B4567 327B23C6 xor=59F066A1
+Checking compiler assumptions for SSE4.1: -103 -58 max=198 => compiler zero extends
+Checking compiler assumptions for SSE4.2 options: 6B8B4567 __builtin_clz=1 __builtin_ctz=0 _mm_popcnt_u32=17 __builtin_popcount=17 
+Finished checking compiler assumptions
+Pre-loading compressed genome (oligos)......done (308,979,024 bytes, 75435 pages, 0.02 sec)
+Pre-loading compressed genome (bits)......done (308,979,072 bytes, 75435 pages, 0.24 sec)
+Allocating memory for indexij ptrs...Attached existing memory for /home/wxk/ref/tomato/index_gsnap/tomato.saindex64meta...done (4,194,312 bytes, 0.00 sec)
+Allocating memory for indexij comp...Using malloc instead of shmget for file /home/wxk/ref/tomato/index_gsnap/tomato.saindex64strm
+shm_attach not working on file /home/wxk/ref/tomato/index_gsnap/tomato.saindex64strm, so using memory mapping instead on 33888816 bytes
+done (33,888,816 bytes, 0.00 sec)
+Pre-loading LCP/child/DC arrays......done (2,059,860,105 bytes, 18.16 sec)
+Pre-loading guide/exceptions...............done
+Looking for index files in directory /home/wxk/ref/tomato/index_gsnap
+  Pointers file is tomato.ref153offsets64meta
+  Offsets file is tomato.ref153offsets64strm
+  Positions file is tomato.ref153positions
+Offsets compression type: bitpack64
+Allocating memory for ref offset pointers, kmer 15, interval 3...Using malloc instead of shmget for file /home/wxk/ref/tomato/index_gsnap/tomato.ref153offsets64meta
+shm_attach not working on file /home/wxk/ref/tomato/index_gsnap/tomato.ref153offsets64meta, so using memory mapping instead on 134217744 bytes
+done (134,217,744 bytes, 0.00 sec)
+Allocating memory for ref offsets, kmer 15, interval 3...Using malloc instead of shmget for file /home/wxk/ref/tomato/index_gsnap/tomato.ref153offsets64strm
+shm_attach not working on file /home/wxk/ref/tomato/index_gsnap/tomato.ref153offsets64strm, so using memory mapping instead on 334901088 bytes
+done (334,901,088 bytes, 0.00 sec)
+Allocating memory for ref positions, kmer 15, interval 3...Using malloc instead of shmget for file /home/wxk/ref/tomato/index_gsnap/tomato.ref153positions
+shm_attach not working on file /home/wxk/ref/tomato/index_gsnap/tomato.ref153positions, so using memory mapping instead on 983012128 bytes
+done (983,012,128 bytes, 0.00 sec)
+GMAP modes: pairsearch, segments, improvement
+Starting alignment
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 3719262 ON c7-30 CANCELLED AT 2017-02-07T01:04:10 ***
+srun: got SIGCONT
+srun: forcing job termination
+slurmstepd: error: *** STEP 3719262.0 ON c7-30 CANCELLED AT 2017-02-07T01:04:11 ***
+Signal received: SIGTERM
+Calling Access_emergency_cleanup
+Removed existing memory for shmid 62095360
+
+You may want to run 'ipcs -m' to see if any shared memory segments are still in use
+You can remove a shared memory segment manually by doing 'ipcrm -m <shmid>'
+
+srun: error: c7-30: task 0: Exited with exit code 9
