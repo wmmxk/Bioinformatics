@@ -14,7 +14,12 @@ man command
 
 
 ## Search in text file using grep
+```
+grep -n --color=always pattern file.txt
 
+```
+-n: output the line number
+--color: highlight the match in colr
 
 ## List just the names of files that contain a string in Linux
 Use regular expression to refer to a bunch of files
