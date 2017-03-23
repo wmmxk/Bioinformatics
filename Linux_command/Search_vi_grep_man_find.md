@@ -26,4 +26,7 @@ egrep -l pattern file*.txt
 ## Search files in a folder
 ls + regular expression
 
-## 
+##  Find files in a folder not on a list:
+```
+find . | grep -vf file.list 
+```
