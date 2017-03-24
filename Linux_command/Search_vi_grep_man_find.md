@@ -7,7 +7,9 @@ man command
 ##  In vi editor
 ###search only
 ```
+:/pattern
 
+hit n key to go to next match
 ```
 
 
@@ -34,4 +36,10 @@ ls + regular expression
 ##  Find files in a folder not on a list:
 ```
 find . | grep -vf file.list 
+```
+
+## search printable text in a binary file
+```
+strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep CXXABI_1.3.8
+
 ```
