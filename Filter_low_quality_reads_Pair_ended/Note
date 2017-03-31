@@ -1,0 +1,4 @@
+1. How to run the code:
+   python ./filter.py R1.fastq.gz R2.fastq.gz
+
+2. The adapters of the raw reads have been removed.
