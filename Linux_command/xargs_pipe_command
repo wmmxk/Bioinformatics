@@ -1,0 +1,5 @@
+# show filenames without directory path
+```
+for f in `ls ../compress_reads/*bz2|xargs -n 1 basename`; do echo $f; done
+```
+Note: if you did not specify bz2, but just list files in that folder no need to use "xargs -n 1"

@@ -44,3 +44,15 @@ tail -n +3 file.txt
 
 ```
 without +, only the last three lines are displayed
+
+
+# Output the row and column nubmer of a pattern in a file
+Suppose you have a txt file like this, you want to find which row has "rrr"
+aa;bbb;ccc;rrr;mmm;
+gggg;rrr;mmmm;ssss;eee;aaa;
+
+
+```
+echo -e "aaa;bbb;ccc;rrr;mmm;\ngggg;rrr;mmmm;ssss;eee;aaa;\n" |awk -F";" '{for(i=1;i<=NF;i++){if ($i ~ /rrr/){print NR,i}}}'
+
+```

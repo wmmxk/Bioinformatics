@@ -39,4 +39,8 @@ bad 2
 
 awk < ./file2.txt '/^good/  {print $2, $1}'
 ```
+# collapse all lines into one line:
+```
+cat myfile | awk '{print}' ORS=''
 
+```
